@@ -5,7 +5,7 @@ import EmailForm from './components/EmailForm';
 import StatusAlert from './components/StatusAlert';
 
 // Reads from .env or defaults to local backend server
-const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || 'http://localhost:5000';
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || 'https://bulkmail-app-one.vercel.app';
 
 export default function App() {
   const [emails, setEmails] = useState([]);
